@@ -216,7 +216,7 @@
 						Sakyo-ku, Kyoto 606-8501, Japan (606-8501, 京都市左京区吉田本町総合研究7 号館4 階)					</span>
 				</p>
 						<div class="r">
-									<p class="email"><label>E-mail<span class="colon">:</span></label> <span class="value">shi@sap.ist.i.kyoto-u.ac.jp, hshi.cca@gmail.com</span></p>
+									<p class="email"><label>E-mail<span class="colon">:</span></label> <span class="value">shi@sap.ist.i.kyoto-u.ac.jp / hshi.cca@gmail.com</span></p>
 				
 				
 							</div>
@@ -231,7 +231,16 @@
 			<h2 class="title">About Me</h2>
 			<div class="set">
 							<div class="item">
-								<span class="info"><p><span style="font-weight:700;">I am Hao Shi (史昊), in</span> <a><span style="font-weight:700;">Speech and Audio Processing Lab.</span></a><span style="font-weight:700;">, Kyoto University, Japan.</span></p><p>I am a Ph.D. student from <a>Graduate School of Informatics</a>, <a>Kyoto university</a>, Japan, where I studied under the supervision of Prof. Tatsuya Kawahara.</p><p>I received the Master’s degree from <a>College of Intelligence and Computing</a>, <a>Tianjin University</a>, where I studied under the supervision of Prof. Longbiao Wang. I receive bachelor’s degree from <a>the school of information science and technology</a>, <a>Southwest Jiaotong University</a>, Chengdu, China, in 2018.</p><p>My main research interests (not limited) are <em>robust automatic speech recognition</em>, <em>speech enhancement/separation</em>, <em>speech signal processing</em>.</p><p>I like travelling, playing basketball, listening to music. I can play the piano.</p></span>
+								<span class="info"><p><span>I am Hao Shi (史昊), in</span> <span><a>Speech and Audio Processing Lab.</a></span><span>, Kyoto University, Japan. </span>I am a Ph.D. student from <span><a>Graduate School of Informatics</a></span>, <span><a>Kyoto university</a></span>, Japan, where I studied under the supervision of Prof. Tatsuya Kawahara. I received the Master’s degree from <span><a>College of Intelligence and Computing</a></span>, <span><a>Tianjin University</a></span>, where I studied under the supervision of Prof. Longbiao Wang. I receive bachelor’s degree from <span><a>the school of information science and technology</a></span>, <span><a>Southwest Jiaotong University</a></span>, Chengdu, China, in 2018.</p><p>My main research interests (not limited) are <em>robust automatic speech recognition</em>, <em>speech enhancement/separation</em>, <em>speech signal processing</em>.</p><p>I like travelling, playing basketball, listening to music, playing the piano. </p></span>
+							</div>
+						</div>
+			<div class="clear"> </div>
+		</div>
+			<div class="section section-1620314201577">
+			<h2 class="title">Research Interests</h2>
+			<div class="set">
+							<div class="item">
+								<span class="info"><h3><span><span style="font-weight:normal;">Automatic Speech Recognition</span></span></h3><div><ul><li><span>Robust Automatic Speech Recognition</span></li><li><span>End-to-end Automatic Speech Recognition</span></li></ul><h3><span><span style="font-weight:normal;"><br /></span></span></h3><h3><span><span style="font-weight:normal;">Speech Enhancement</span></span></h3><div><ul><li><span>Spectrograms Fusion-based Frequency Enhancement</span></li></ul></div><h3><span><span style="font-weight:normal;"><br /></span></span></h3><h3><span><span style="font-weight:normal;">Speech Separation</span></span></h3></div><div><ul><li><span>Blind Speech Separation</span></li></ul></div></span>
 							</div>
 						</div>
 			<div class="clear"> </div>
@@ -265,11 +274,24 @@
 						</div>
 			<div class="clear"> </div>
 		</div>
-			<div class="section section-references">
-			<h2 class="title">References</h2>
+			<div class="section section-work">
+			<h2 class="title">Work experience</h2>
+			<div class="set">
+								<div class="item">
+									<h3><span class="company l">INTERSPEECH</span>
+							<span class="date r">09, 2020 &mdash; 10, 2020</span>
+								</h3>
+								<div class="clear"> </div>
+								<span class="job_title">Volunteer</span><div class="info"><ul><li><span>Guide and organize the report of multiple sub-topics</span></li></ul></div><div class="clear"> </div>
+								</div>
+							</div>
+			<div class="clear"> </div>
+		</div>
+			<div class="section section-1620315088266">
+			<h2 class="title">Publications</h2>
 			<div class="set">
 							<div class="item">
-								<span class="info">References available upon request.</span>
+								<span class="info"><h3><span>Conference Papers, First Author</span></h3><div><div><ol><li><span><span style="font-weight:bold;">H. Shi</span>, L. Wang, M. Ge, S. Li, J. Dang, “Spectrograms Fusion with Minimum Difference Masks Estimation for Monaural Speech Dereverberation,” in Proc. of ICASSP, 2020, pp. 7544-7548. </span></li><li><span style="font-weight:bold;">H. Shi</span>, L. Wang, S. Li, C. Ding, M. Ge, N. Li, J. Dang, H. Seki, “Singing Voice Extraction with Attention based Spectrograms Fusion,” in Proc. of Interspeech, 2020, pp. 2412-2416. </li></ol></div></div><div><span><br /></span></div><h3><span>Conference Papers, Co-Author</span></h3><div><ol><li>M. Ge, L. Wang, N. Li, <span style="font-weight:bold;">H. Shi</span>, J. Dang, X. Li, “Environment-dependent attention-driven recurrent convolutional neural network for robust speech enhancement,” in Proc. of Interspeech, 2019, pp. 3153-3157.</li></ol></div></span>
 							</div>
 						</div>
 			<div class="clear"> </div>
