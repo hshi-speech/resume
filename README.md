@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>My CV</title>
+	<title>Resume of Hao Shi</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta http-equiv="Generator" content="CV Maker - https://cvmkr.com/" />
 	<link href="http://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css" />
@@ -293,13 +293,15 @@
 			<div class="item">
 <span class="info">
 	<h3><span>Conference Papers, First Author</span></h3>
-	<div><div><ol><li><span>
-<span style="font-weight:bold;"><u>H. Shi</u></span>, L. Wang, M. Ge, S. Li, J. Dang, “Spectrograms Fusion with Minimum Difference Masks Estimation for Monaural Speech Dereverberation,” in Proc. of ICASSP, 2020, pp. 7544-7548. </span></li>
-<li>
-<span style="font-weight:bold;"><u>H. Shi</u></span>, L. Wang, S. Li, C. Ding, M. Ge, N. Li, J. Dang, H. Seki, “Singing Voice Extraction with Attention based Spectrograms Fusion,” in Proc. of Interspeech, 2020, pp. 2412-2416. </li></ol></div></div><div><span><br /></span></div>
+	<div><div><ol>
+<li><span><span style="font-weight:bold;"><u>H. Shi</u></span>, L. Wang, M. Ge, S. Li, J. Dang, “Spectrograms Fusion with Minimum Difference Masks Estimation for Monaural Speech Dereverberation,” in Proc. of ICASSP, 2020, pp. 7544-7548. (<a href="pdf/0007539.pdf"><u>PDF File</u></a>, <a href="videos/ICASSP2020-3378-SPECTROGRAMS FUSION WITH MINIMUM DIFFERENCE MASKS ESTIMATION FOR MONAURAL SPEECH DEREVERBERATION-Hao Shi.mp4"><u>Video</u></a>)</span></li>
+<li><span style="font-weight:bold;"><u>H. Shi</u></span>, L. Wang, S. Li, C. Ding, M. Ge, N. Li, J. Dang, H. Seki, “Singing Voice Extraction with Attention based Spectrograms Fusion,” in Proc. of Interspeech, 2020, pp. 2412-2416. (<a href="pdf/Wed-1-11-1.pdf"><u>PDF File</u></a>, <a href="videos/1043_paper_Hao Shi_Singing Voice Extraction with Attention based Spectrograms Fusion.mp4"><u>Video</u></a>)</li>
+</ol></div></div><div><span><br/></span></div>
 	
-	<h3><span>Conference Papers, Co-Author</span></h3>
-	<div><ol><li>M. Ge, L. Wang, N. Li, <span style="font-weight:bold;"><u>H. Shi</u></span>, J. Dang, X. Li, “Environment-dependent attention-driven recurrent convolutional neural network for robust speech enhancement,” in Proc. of Interspeech, 2019, pp. 3153-3157.</li></ol></div></span>
+<h3><span>Conference Papers, Co-Author</span></h3>
+<div><ol>
+<li>M. Ge, L. Wang, N. Li, <span style="font-weight:bold;"><u>H. Shi</u></span>, J. Dang, X. Li, “Environment-dependent attention-driven recurrent convolutional neural network for robust speech enhancement,” in Proc. of Interspeech, 2019, pp. 3153-3157. (<a href="pdf/1477.pdf"><u>PDF File</u></a>)</li>
+</ol></div></span>
 							</div>
 						</div>
 			<div class="clear"> </div>
