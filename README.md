@@ -308,7 +308,6 @@
 		</div>
 		
 </div>
-	<div id="credit">Made with <a href="https://cvmkr.com/">CV Maker</a></div>
 	
 </body>
 </html>
