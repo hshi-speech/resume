@@ -1,30 +1,28 @@
+<!DOCTYPE html>
 <html>
 <head>
-	<title>Resume of Hao Shi</title>
+	<title>My CV</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta http-equiv="Generator" content="CV Maker - https://cvmkr.com/" />
-	<link href="http://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css" />
 	<style type="text/css">
 		body {
 			background: #f0f0f0;
 			margin: 0;
 			padding: 0;
 			
-			font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+			font-family: Georgia, serif, 'Trebuchet MS';
 			line-height: 20px;
-			font-size: 13px;
+			font-size: 12px;
 
 			color: #222;
 		}
 
 		h1, h2, h3, h4 {
-			font-family: 'Oswald', Impact, Helvetica, Arial, sans-serif;
-			font-weight: normal;
 			margin: 0 0 15px 0;
 			padding: 0;
 		}
 		h1 {
-			font-size: 300%;
+			font-size: 400%;
 		}
 		h2 {
 			font-size: 210%;
@@ -38,8 +36,10 @@
 		}
 		
 		ul {
-			margin: 0;
-			list-style-type: square;
+			list-style-type: circle;
+		}
+		li {
+			margin-bottom: 5px;
 		}
 		a {
 			color: #222;
@@ -61,12 +61,12 @@
 			
 			box-shadow: 0 0 6px #ccc;
 		}
-
+		
 		#title {
 			line-height: 42px;
-			border-bottom: 3px solid #000;
-			padding-bottom: 30px;
-			margin: 0px 0 30px 0;
+			margin: 0px 0 15px 0;
+			font-weight: normal;
+			text-align: center;
 		}
 		
 		#credit {
@@ -80,7 +80,7 @@
 			}
 		
 		p label {
-			font-family: 'Oswald', Helvetica, Arial, serif;
+			font-weight: bold;
 			
 			font-size: 110%;
 			margin-right: 10px;
@@ -91,62 +91,39 @@
 
 		
 		.section {
-			margin-bottom: 40px;
+			margin-bottom: 30px;
 		}
-		.section .set {
-		}
+		
 		.item {
 			margin: 0 0 20px 0;
 		}
 
 		/*  _____________________________ */
+		.basic-info {
+			margin: 0 auto 30px auto;
+			width: 80%;
+			overflow: hidden;
+			text-align: center;
+		}
+		.basic-info p {
+			margin: 0;
+		}
+		.basic-info .dot {
+			display: inline;
+			font-size: 14px;
+			margin: 0 10px;
+		}
+		
 		.section .title {
 			text-transform: uppercase;
-			font-size: 170%;
-
-			padding: 10px 10px;
-			margin: 0 auto 15px auto;
-
-			display: inline-block;
-			background: #000;
-			color: #fff;
+			font-size: 150%;
+			text-align: center;
+			border-bottom: 1px solid #ccc;
+			padding-bottom: 10px;
 		}
 			.section .set h3 {
 				margin: 0;
 			}
-
-
-
-		.basic-info {
-			border-top: 0;
-		}
-		.section.basic-info .title {
-			float: left;
-			border: 0;
-		}
-		.basic-info .set {
-			float: right;
-			width: 70%;
-		}
-		.basic-info .address {
-			width: 40%;
-			float: left;
-		}
-		.basic-info .r {
-			float: right;
-			width: 60%;
-			text-align: right;
-		}
-			.basic-info label {
-				font-family: 'Oswald', Helvetica, Arial, serif;
-			}
-			.basic-info label, .basic-info span  {
-				display: inline !important;
-			}
-		.basic-info p {
-			margin: 0;
-		}
-		
 		.section span.value {
 			display: block;
 		}
@@ -163,15 +140,16 @@
 				font-size: 100%;
 				display: block;
 				margin: 5px 0 5px 0;
+				font-style: italic;
 			}
 
-
+		/* ___ photo ___ */
 		#photo {
 			width: 160px;
 			height: 200px;
 			overflow: hidden;
 			float: left;
-			margin-top: 4px;
+			margin-top: 8px;
 			border-radius: 4px;
 		}
 		#photo img {
@@ -187,8 +165,9 @@
 		.header.photo .basic-info {
 			float: none;
 			padding: 0;
+			width: auto;
+			text-align: left;
 		}
-
 
 		@media screen and (max-width: 950px) {
 			body {
@@ -205,26 +184,31 @@
 <body class="lang-en ">
 
 <div id="main">
+			<div id="photo">
+			<img src="https://s3-eu-west-1.amazonaws.com/files1.cvmkr.com/ce1660_4349985_12660298.jpg" alt="" />
+		</div>
+		<div class="header photo">
 	
 	<h1 id="title">Hao Shi</h1>
 	<div class="basic-info section">
-		<h2 class="title">Contact</h2>
 		<div class="set">
-		
+						<p class="email">
+											E-mail <span class="dot">&sect;</span> shi@sap.ist.i.kyoto-u.ac.jp / hshi.cca@gmail.com<br />
+					
+					
+											Phone <span class="dot">&sect;</span> +86 15222877881<br />
+									</p>
+			
 							<p class="address">
-					<span class="value">
-						Sakyo-ku, Kyoto 606-8501, Japan (606-8501, 京都市左京区吉田本町総合研究7 号館4 階)					</span>
-				</p>
-						<div class="r">
-									<p class="email"><label>E-mail<span class="colon">:</span></label> <span class="value">shi@sap.ist.i.kyoto-u.ac.jp / hshi.cca@gmail.com</span></p>
-				
-				
-							</div>
+											Address <span class="dot">&sect;</span>
+										Sakyo-ku, Kyoto 606-8501, Japan (606-8501, 京都市左京区吉田本町総合研究7 号館4 階)				</p>
+			
 			<div class="clear"> </div>
 		</div><!-- set //-->
 		<div class="clear"> </div>
 	</div><!-- basic-info //-->
 
+			</div><div class="clear"> </div>
 	
 		
 			<div class="section section-1620313811176">
@@ -275,8 +259,16 @@
 			<div class="clear"> </div>
 		</div>
 			<div class="section section-work">
-			<h2 class="title">Work experience</h2>
+			<h2 class="title">Working Experience</h2>
 			<div class="set">
+								<div class="item">
+									<h3><span class="company l">Tianjin University</span>
+							<span class="date r">05, 2021 &mdash; Present</span>
+								</h3>
+								<div class="clear"> </div>
+								<span class="job_title">Research Assistant</span><div class="info"><ul><li><span>Engaged in automatic speech recognition and speech enhancement research</span></li></ul></div><div class="clear"> </div>
+								</div>
+							
 								<div class="item">
 									<h3><span class="company l">INTERSPEECH</span>
 							<span class="date r">09, 2020 &mdash; 10, 2020</span>
@@ -287,6 +279,8 @@
 							</div>
 			<div class="clear"> </div>
 		</div>
+	
+	
 			<div class="section section-1620315088266">
 			<h2 class="title">Publications</h2>
 			<div class="set">
