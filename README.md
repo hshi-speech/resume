@@ -11,7 +11,7 @@
 			
 			font-family: Georgia, serif, 'Trebuchet MS';
 			line-height: 20px;
-			font-size: 18px;
+			font-size: 16px;
 
 			color: #222;
 		}
@@ -70,7 +70,7 @@
 		
 		#credit {
 			margin-bottom: 20px;
-			font-size: 17px;
+			font-size: 15px;
 			color: #999;
 			text-align: center;
 		}
@@ -109,7 +109,7 @@
 		}
 		.basic-info .dot {
 			display: inline;
-			font-size: 20px;
+			font-size: 18px;
 			margin: 0 10px;
 		}
 		
