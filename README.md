@@ -11,7 +11,7 @@
 			
 			font-family: Georgia, serif, 'Trebuchet MS';
 			line-height: 20px;
-			font-size: 16px;
+			font-size: 14px;
 
 			color: #222;
 		}
