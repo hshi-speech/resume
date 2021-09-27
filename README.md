@@ -293,8 +293,8 @@
 	
 <h3><span>Conference Papers, Co-Author</span></h3>
 <div><ol>
-<li>L. Qiang, <span style="font-weight:bold;"><u>H. Shi</u></span>, M. Ge, H. Yin, N. Li, L. Wang, S. Li J. Dang, “Speech Dereverberation Based on Scale-aware Mean Square Error Loss,” in Proc. of ICONIP, 2021, pp. xxxx-xxxx. (<a href="pdf/SaSD.pdf"><u>PDF File</u></a>)</li>
-<li>M. Ge, L. Wang, N. Li, <span style="font-weight:bold;"><u>H. Shi</u></span>, J. Dang, X. Li, “xxxxxxxx,” in Proc. of ICONIP, 2021, pp. xxxx-xxxx. (<a href="pdf/1477.pdf"><u>PDF File</u></a>)</li>
+<li>L. Qiang, <span style="font-weight:bold;"><u>H. Shi</u></span>, M. Ge, H. Yin, N. Li, L. Wang, S. Li J. Dang, “Speech Dereverberation Based on Scale-aware Mean Square Error Loss,” in Proc. of ICONIP, 2021, pp. xxxx-xxxx. (<span style="font-weight:bold;"><u>Joint first author</u></span>, <a href="pdf/SaSD.pdf"><u>PDF File</u></a>)</li>
+<li>M. Ge, L. Wang, N. Li, <span style="font-weight:bold;"><u>H. Shi</u></span>, J. Dang, X. Li, “xxxxxxxx,” in Proc. of ICONIP, 2021, pp. xxxx-xxxx. (<span style="font-weight:bold;"><u>Joint first author</u></span>, <a href="pdf/1477.pdf"><u>PDF File</u></a>)</li>
 <li>M. Ge, L. Wang, N. Li, <span style="font-weight:bold;"><u>H. Shi</u></span>, J. Dang, X. Li, “Environment-dependent attention-driven recurrent convolutional neural network for robust speech enhancement,” in Proc. of Interspeech, 2019, pp. 3153-3157. (<a href="pdf/1477.pdf"><u>PDF File</u></a>)</li>
 </ol></div></span>
 							</div>
