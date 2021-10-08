@@ -1,0 +1,230 @@
+\documentclass[11pt,letter,sans]{moderncv}
+\DeclareOldFontCommand{\rm}{\normalfont\rmfamily}{\mathrm}
+\DeclareOldFontCommand{\sf}{\normalfont\sffamily}{\mathsf}
+\DeclareOldFontCommand{\tt}{\normalfont\ttfamily}{\mathtt}
+\DeclareOldFontCommand{\bf}{\normalfont\bfseries}{\mathbf}
+\DeclareOldFontCommand{\it}{\normalfont\itshape}{\mathit}
+\DeclareOldFontCommand{\sl}{\normalfont\slshape}{\@nomath\sl}
+\DeclareOldFontCommand{\sc}{\normalfont\scshape}{\@nomath\sc}
+\DeclareRobustCommand*\cal{\@fontswitch\relax\mathcal}
+\DeclareRobustCommand*\mit{\@fontswitch\relax\mathnormal}
+
+
+\definecolor{tab_highlight}{HTML}{f0c967}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+\definecolor{color2}{rgb}{0.25,0.25,0.25}
+%\renewcommand{\familydefault}{\sfdefault}
+
+\usepackage[top=.75in, bottom=.75in, left=.7in, right=.7in]{geometry}
+\setlength{\hintscolumnwidth}{3cm}
+%\setlength{\makecvtitlenamewidth}{10cm}
+
+% \usepackage{ragged2e}
+% \newcolumntype{R}[1]{>{\RaggedLeft\hspace{0pt}}p{#1}}
+
+\usepackage{mathabx}
+
+\frenchspacing
+
+% \usepackage[backend=biber,style=ieee,defernumbers=true]{biblatex}
+% \usepackage[
+% backend=biber,style=publist,
+% sorting=ydmdnt,
+% %plauthorhandling=highlight,
+% % marginyear=true,
+% plnumbered=false,
+% maxnames=10,
+% nameorder=given-family
+% ]{biblatex}
+
+% Make the author's name bold in publications.
+% \DeclareNameFormat{author}{%
+%   \nameparts{#1}%
+%   \ifthenelse{\equal{\namepartfamily}{Amos}\or\equal{\namepartfamily}{Amos*}}%
+%     {\textbf{\ifblank{\namepartgiveni}{}{\namepartgiveni\space}\namepartfamily}}%
+%     {\ifblank{\namepartgiveni}{}{\namepartgiveni\space}\namepartfamily}%
+%   \ifthenelse{\value{listcount}=1 \AND \value{liststop}=2}%
+%     {\space and\space}
+%     {\ifthenelse{\value{listcount}<\value{liststop}}%
+%       {\addcomma\space}
+%       {}
+%     }
+% }
+% Old, broken:
+% \DeclareNameFormat{author}{%
+%   \ifthenelse{\equal{#1}{Shi}}%
+%     {\textbf{\ifblank{#4}{}{#4\space}#1}}%
+%     {\ifblank{#4}{}{#4\space}#1}%
+%   \ifthenelse{\value{listcount}=1 \AND \value{liststop}=2}%
+%     {\space and\space}
+%     {\ifthenelse{\value{listcount}<\value{liststop}}%
+%       {\addcomma\space}
+%       {}
+%     }
+% }
+
+\usepackage{lastpage}
+\cfoot{\addressfont\textcolor{gray}{\hypersetup{allcolors=gray}Page \thepage\ of \pageref{LastPage}}}
+
+\AtEndPreamble{\hypersetup{pdftitle={CV -- Hao Shi}}}
+\name{Hao}{Shi}
+%\title{Resumé title}
+%\address{street and number}{postcode city}{country}
+% \phone{}
+\email{hshi.cca@gmail.com}
+\homepage{hshi-speech.github.io}
+\social[linkedin]{hao-shi-29300b1b2}
+\social[twitter]{haoshi}
+\social[github]{hshi-speech}
+\extrainfo{\small Last updated on \today}
+%\photo[64pt][0.4pt]{picture}
+% \quote{Generated on \today}
+
+\AtBeginDocument{\hypersetup{colorlinks}}
+
+\begin{document}
+\hypersetup{allcolors=color1}
+\makecvtitle
+
+\vspace{-1cm}
+
+\section{Education}
+% \vspace{-2mm}
+% \begin{itemize}
+    % \item 
+    \textbf{Ph.D. in Computer Science}, Kyoto University
+    \hfill 2021 -- Current \par
+\textit{{Robust Automatic Speech Recognition}} \par
+Advisors: \href{http://sap.ist.i.kyoto-u.ac.jp/members/kawahara/}{Tatsuya Kawahara} \par
+  \vspace{3mm}
+    % \item 
+    \textbf{M.Phil. in Computer Science}, Tianjin University
+    \hfill 2018 -- 2021 \par
+\textit{\href{https://github.com/hshi-speech/resume/blob/main/pdf/master_thesis.pdf}{Thesis: Spectrograms Fusion-based Speech Enhancement}} \par
+Advisors: \href{http://cic.tju.edu.cn/faculty/wanglongbiao/wang.html}{Longbiao Wang} \par
+  \vspace{3mm}
+    % \item 
+    \textbf{B.Sc. in Computer Science}, Southwest Jiaotong University
+    \hfill 2014 -- 2018 \par
+Advisors: \href{https://faculty.swjtu.edu.cn/dizhixiong/zh_CN/zhym/129018/list/index.htm}{Zhixiong Di} \par
+  \vspace{3mm}
+% \end{itemize}
+\vspace{-3mm}
+
+
+\section{Research Experience}
+        \cvlistitem{
+          Tianjin University,  \hfill Aug. 2021 -- Present
+          \begin{itemize}
+          \item Speech signal processing
+          \end{itemize}
+        }
+
+
+\section{Publications}
+% \vspace{-8mm}
+% \hfill
+% Google Scholar ID:
+% \href{https://scholar.google.com/citations?user=DclFbLwAAAAJ&hl}{DclFbLwAAAAJ&hl}
+% \vspace{2mm}
+
+Representative publications that I am a primary author on are
+\colorbox{tab_highlight}{highlighted.}
+
+[\href{https://scholar.google.com/citations?user=DclFbLwAAAAJ&hl}{Google Scholar}]
+[\href{https://github.com/bamos/cv/blob/master/publications/all.bib}{BibTeX}]
+
+% [<a href="https://scholar.google.com/citations?user={{ scholar_id }}">Google Scholar</a>]
+% [<a href="https://github.com/bamos/cv/blob/master/publications/{{ content.file }}">BibTeX</a>]
+
+% \renewcommand*{\bibfont}{\small}
+
+% \begin{refsection}[publications/all.bib]
+% \nocite{*}
+% \printbibliography[heading=none]
+% \end{refsection}
+
+\subsection{2021}
+
+\begin{minipage}{\textwidth}
+\begin{tabular}{R{8mm}p{1mm}L{6.5in}}
+\cellcolor{tab_highlight} 1.\hspace*{1mm} && \textit{\href{https://hshi-speech.github.io/resume/pdf/SaSD.pdf}{Speech Dereverberation Based on Scale-aware Mean Square Error Loss} }  \\
+\cellcolor{tab_highlight} && \mbox{Luya Qiang}, \mbox{\textbf{\href{https://scholar.google.com/citations?user=DclFbLwAAAAJ}{Hao Shi (Joint First Author)}}}, \mbox{\href{https://scholar.google.com/citations?user=Ody4GF0AAAAJ}{Meng Ge}}, \mbox{Haoran Yin}, \mbox{\href{https://scholar.google.com/citations?user=9BVJbdsAAAAJ}{Nan Li}}, \mbox{\href{https://scholar.google.com/citations?user=1Z9_5ZgAAAAJ}{Longbiao Wang}}, \mbox{\href{https://scholar.google.com/citations?user=zHAhs0IAAAAJ}{Sheng Li}}, and \mbox{\href{https://scholar.google.com/citations?user=Wk5ApskAAAAJ}{Jianwu Dang}} \\
+\cellcolor{tab_highlight} && ICONIP 2021  \\
+\end{tabular} \\[2mm]
+\end{minipage}
+
+\begin{minipage}{\textwidth}
+\begin{tabular}{R{8mm}p{1mm}L{6.5in}}
+\cellcolor{tab_highlight} 2.\hspace*{1mm} && \textit{\href{https://hshi-speech.github.io/resume/pdf/SaSD.pdf}{Simultaneous Progressive Filtering-based Monaural Speech Enhancement} }  \\
+\cellcolor{tab_highlight} && \mbox{Haoran Yin}, \mbox{\textbf{\href{https://scholar.google.com/citations?user=DclFbLwAAAAJ}{Hao Shi (Joint First Author)}}}, \mbox{\href{https://scholar.google.com/citations?user=1Z9_5ZgAAAAJ}{Longbiao Wang}}, \mbox{Luya Qiang}, \mbox{\href{https://scholar.google.com/citations?user=zHAhs0IAAAAJ}{Sheng Li}}, \mbox{\href{https://scholar.google.com/citations?user=Ody4GF0AAAAJ}{Meng Ge}}, \mbox{Gaoyan Zhang}, and \mbox{\href{https://scholar.google.com/citations?user=Wk5ApskAAAAJ}{Jianwu Dang}} \\
+\cellcolor{tab_highlight} && ICONIP 2021  \\
+\end{tabular} \\[2mm]
+\end{minipage}
+
+\begin{minipage}{\textwidth}
+\begin{tabular}{R{8mm}p{1mm}L{6.5in}}
+\cellcolor{tab_highlight} 3.\hspace*{1mm} && \textit{\href{https://hshi-speech.github.io/resume/pdf/APSIPA-2021.pdf}{Spectrograms Fusion-based End-to-end Robust Automatic Speech Recognition} }  \\
+\cellcolor{tab_highlight} && \mbox{\textbf{\href{https://scholar.google.com/citations?user=DclFbLwAAAAJ}{Hao Shi}}}, \mbox{\href{https://scholar.google.com/citations?user=1Z9_5ZgAAAAJ}{Longbiao Wang}}, \mbox{\href{https://scholar.google.com/citations?user=zHAhs0IAAAAJ}{Sheng Li}}, \mbox{Cunhang Fan}, \mbox{\href{https://scholar.google.com/citations?user=Wk5ApskAAAAJ}{Jianwu Dang}}, and \mbox{\href{https://scholar.google.com/citations?user=o3AmlFYAAAAJ}{Tatsuya Kawahara}} \\
+\cellcolor{tab_highlight} && APSIPA 2021  \\
+\end{tabular} \\[2mm]
+\end{minipage}
+\subsection{2020}
+
+\begin{minipage}{\textwidth}
+\begin{tabular}{R{8mm}p{1mm}L{6.5in}}
+\cellcolor{tab_highlight} 4.\hspace*{1mm} && \textit{\href{https://hshi-speech.github.io/resume/pdf/Wed-1-11-1.pdf}{Singing Voice Extraction with Attention-Based Spectrograms Fusion} }  \\
+\cellcolor{tab_highlight} && \mbox{\textbf{\href{https://scholar.google.com/citations?user=DclFbLwAAAAJ}{Hao Shi}}}, \mbox{\href{https://scholar.google.com/citations?user=1Z9_5ZgAAAAJ}{Longbiao Wang}}, \mbox{\href{https://scholar.google.com/citations?user=zHAhs0IAAAAJ}{Sheng Li}}, \mbox{Chenchen Ding}, \mbox{\href{https://scholar.google.com/citations?user=Ody4GF0AAAAJ}{Meng Ge}}, \mbox{\href{https://scholar.google.com/citations?user=9BVJbdsAAAAJ}{Nan Li}}, \mbox{\href{https://scholar.google.com/citations?user=Wk5ApskAAAAJ}{Jianwu Dang}}, and \mbox{Hiroshi Seki} \\
+\cellcolor{tab_highlight} && INTERSPEECH 2020  \\
+\end{tabular} \\[2mm]
+\end{minipage}
+
+\begin{minipage}{\textwidth}
+\begin{tabular}{R{8mm}p{1mm}L{6.5in}}
+\cellcolor{tab_highlight} 5.\hspace*{1mm} && \textit{\href{https://hshi-speech.github.io/resume/pdf/0007539.pdf}{Spectrograms Fusion with Minimum Difference Masks Estimation for Monaural Speech Dereverberation} }  \\
+\cellcolor{tab_highlight} && \mbox{\textbf{\href{https://scholar.google.com/citations?user=DclFbLwAAAAJ}{Hao Shi}}}, \mbox{\href{https://scholar.google.com/citations?user=1Z9_5ZgAAAAJ}{Longbiao Wang}}, \mbox{\href{https://scholar.google.com/citations?user=Ody4GF0AAAAJ}{Meng Ge}}, \mbox{\href{https://scholar.google.com/citations?user=zHAhs0IAAAAJ}{Sheng Li}}, and \mbox{\href{https://scholar.google.com/citations?user=Wk5ApskAAAAJ}{Jianwu Dang}} \\
+\cellcolor{tab_highlight} && ICASSP 2020  \\
+\end{tabular} \\[2mm]
+\end{minipage}
+\subsection{2019}
+
+\begin{minipage}{\textwidth}
+\begin{tabular}{R{8mm}p{1mm}L{6.5in}}
+ 6.\hspace*{1mm} && \textit{\href{https://hshi-speech.github.io/resume/pdf/1477.pdf}{Environment-Dependent Attention-Driven Recurrent Convolutional Neural Network for Robust Speech Enhancement} }  \\
+ && \mbox{\href{https://scholar.google.com/citations?user=Ody4GF0AAAAJ}{Meng Ge}}, \mbox{\href{https://scholar.google.com/citations?user=1Z9_5ZgAAAAJ}{Longbiao Wang}}, \mbox{\href{https://scholar.google.com/citations?user=9BVJbdsAAAAJ}{Nan Li}}, \mbox{\textbf{\href{https://scholar.google.com/citations?user=DclFbLwAAAAJ}{Hao Shi}}}, \mbox{\href{https://scholar.google.com/citations?user=Wk5ApskAAAAJ}{Jianwu Dang}}, and \mbox{Xiangang Li} \\
+ && INTERSPEECH 2019  \\
+\end{tabular} \\[2mm]
+\end{minipage}
+
+
+\section{Skills}
+\begin{tabular}{p{1in}p{5in}}
+    Programming & C, C++, Java, Python
+ \\
+    Frameworks & NumPy, PyTorch, SciPy, TensorFlow
+ \\
+    Tools & Linux, vim git, tmux
+ \\
+\end{tabular}
+
+
+\section{Hobbies}
+\begin{tabular}{p{1in}p{5in}}
+    Piano & Sonata
+ \\
+    Basketball & Small Forward (SF)
+ \\
+    Swimming & Breaststroke
+ \\
+    Music & Rock
+ \\
+\end{tabular}
+
+
+
+
+\end{document}

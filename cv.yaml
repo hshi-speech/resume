@@ -1,0 +1,319 @@
+name:
+  first: Hao
+  last: Shi
+# phone: ~(540)~947~1238
+email: hshi.cca@gmail.com
+pdf: /data/cv.pdf
+src: https://github.com/hshi-speech/cv-codes
+url: "hshi-speech.github.io"
+social:
+  github: hshi-speech
+  twitter: haoshi
+  linkedin: hao-shi-29300b1b2
+  google_scholar: DclFbLwAAAAJ&hl
+# Erdős  number is at most 4.
+# (Brandon Amos -> Layne Watson -> Leroy Kelly -> Zoltán Füredi -> Paul Erdős )
+
+# LaTeX formatting.
+style: banking # casual, classic, oldstyle, or banking
+color: blue # blue, orange, green, red, purple, grey and black
+color2: '0.25,0.25,0.25' # Make the font under the name a darker grey.
+
+# (tag, section type, title)
+order:
+  - [about, NONE]
+#   - [news, News]
+#   - [positions, Current Position]
+  - [education, Education]
+#  - [industry, Research Internships]
+  - [research, Research Experience]
+#   - [selected_publications, Selected Publications]
+#   - [honors, Honors \& Awards]
+#   - [projects, Projects]
+#   - [coursework, CMU Graduate Coursework]
+#  - [activities, Activities]
+  - [all_publications, Publications]
+#   - [repos, Repositories]
+#   - [NEWPAGE, NEWPAGE]
+#    - [talks, Invited Talks]
+#    - [advising, Interns and Students]
+#   - [service, Professional Activities]
+#   - [teaching, Teaching]
+  - [skills, Skills]
+  - [hobbies, Hobbies]
+
+about: '
+  I am a Ph.D. student in Speech and Audio Processing Lab., (Kyoto University, Japan)
+  where I studied under the supervision of Prof. Tatsuya Kawahara. 
+  I received the Master degree from College of Intelligence and Computing, Tianjin University. 
+  My main topics are speech enhancement and robust automatic speech recognition. 
+  <br><br>'
+
+# service:
+#   - details: "Reviewing: AAAI, ICML, NeurIPS, ICLR*, ICCV, CVPR, ICRA"
+#     sub_details: "*Outstanding reviewer"
+#   - details: NeurIPS Learning Meets Combinatorial Optimization Workshop Organizer
+#     year: 2020
+#     url: https://sites.google.com/view/lmca2020/home
+
+    # repos:
+    #  - repo_url: https://github.com/facebookresearch/mbrl-lib
+    # year: 2021
+    # desc: Model-based reinforcement learning library
+#   - repo_url: https://github.com/locuslab/qpth
+#     www: https://locuslab.github.io/qpth/
+#     year: 2017
+#     desc: Differentiable PyTorch QP solver
+
+education:
+  - school: Kyoto University
+    location: Kyoto, Japan
+    degree: Ph.D. in Computer Science
+    dates: 2021 -- Current
+    details:
+      - "\\textit{{Robust Automatic Speech Recognition}}"
+      - "Advisors: \\href{http://sap.ist.i.kyoto-u.ac.jp/members/kawahara/}{Tatsuya Kawahara}"
+
+  - school: Tianjin University
+    location: Tianjin, China
+    degree: M.Phil. in Computer Science
+    dates: 2018 -- 2021
+    details:
+      - "\\textit{\\href{https://github.com/hshi-speech/resume/blob/main/pdf/master_thesis.pdf}{Thesis: Spectrograms Fusion-based Speech Enhancement}}"
+      - "Advisors: \\href{http://cic.tju.edu.cn/faculty/wanglongbiao/wang.html}{Longbiao Wang}"
+
+  - school: Southwest Jiaotong University
+    location: Chengdu, Sichuan, China
+    degree: B.Sc. in Computer Science
+    dates: 2014 -- 2018
+    details:
+      - "Advisors: \\href{https://faculty.swjtu.edu.cn/dizhixiong/zh_CN/zhym/129018/list/index.htm}{Zhixiong Di}"
+
+
+research:
+  - place: Tianjin University
+    location: Tianjin, China
+    title: Research Assistant
+    dates: Aug. 2021 -- Present
+    area: Speech signal processing
+
+#   - place: Carnegie Mellon University
+#     location: Pittsburgh, Pennsylvania
+#     title: Research Assistant
+#     advisor: Mahadev Satyanarayanan
+#     dates: Aug 2014 -- Apr 2016
+#     area: Applied machine learning and mobile systems
+#     details:
+#       - |
+#           Face recognition with deep neural networks:
+#           \url{http://github.com/cmusatyalab/openface}
+
+
+positions:
+  - place: Facebook AI
+    location: New York City
+    title: Research Scientist
+    # dates: May 2019 -- Present
+    dates: 2019 -- Present
+
+industry:
+  - place: Intel Labs
+    location: Santa Clara
+    # title: Research Intern
+    dates: 2018
+    # dates: June 2018 -- Sept 2018
+    details:
+      - "(Host: \\href{http://vladlen.info/}{Vladlen Koltun})"
+  - place: Google DeepMind
+    location: London
+    # title: Research Intern
+    dates: 2017
+    # dates: May 2017 -- Oct 2017
+    details:
+      - "(Hosts: \\href{http://mdenil.com/}{Misha Denil} and \\href{https://scholar.google.com/citations?user=nzEluBwAAAAJ}{Nando de Freitas})"
+  - place: Adobe Research
+    location: San Jose
+    # title: Data Scientist Intern
+    dates: 2014
+    details:
+      - "(Host: \\href{https://research.adobe.com/person/david-tompkins/}{David Tompkins})"
+  #   # dates: May 2014 -- Aug 2014
+  #   area: Distributed Systems
+    # details:
+    #   - I built a web analytics processing engine using {\bf Scala},
+    #     {\bf Spark}, {\bf Spray}, {\bf Parquet}, and {\bf HDFS}.
+  # - place: Snowplow
+  #   location: London, UK (Remote)
+  #   title: Software Intern
+  #   dates: 2013
+    # dates: Dec 2013 -- Jan 2014
+    # details:
+    # - Open-source {\bf Scala} development with a startup on the
+    #   Snowplow analytics platform.
+    #   My commits are online at
+    #   \url{https://github.com/snowplow/snowplow/commits?author=bamos}.
+    # - Developed a new server using {\bf Spray} and {\bf Actors} to store
+    #   {\bf Thrift} events on {\bf Amazon Kinesis}.
+    # - "Helped port Snowplow's Scala enrichment process to Kinesis."
+  # - place: Qualcomm
+  #   location: San Diego, California
+  #   title: Software Intern
+  #   dates: 2013
+    # dates: May 2013 -- Aug 2013
+    # details:
+    # - "I created a specification format language translator for fuzz
+    #   testing with Python."
+    # - Developed an XML modification {\bf web application} for
+    #   fuzz vector generation.
+    #   Implemented with client-side {\bf HTML} and {\bf js},
+    #   using {\bf D3} for graphics and {\bf Handlebars} for templating.
+    # - Developed an XML-based grammar translator in {\bf C++} with
+    #   the {\bf Xerces} XML parser in {\bf Linux}.
+    #   Reimplemented in {\bf Python} using the {\bf ElementTree} XML API for
+    #   sophisticated analysis and tree transformations.
+  # - place: Phoenix Integration
+  #   location: Blacksburg, Virginia
+  #   title: Software Intern
+  #   dates: 2012
+    # dates: May 2012 -- Aug 2012
+    # details:
+    #   - I developed industry software for software integration and
+    #     design process optimization in {\bf VC++}, {\bf VC\#}, and {\bf Java}.
+      # - Developed industry software in
+      #   {\bf VC++}, {\bf VC\#}, {\bf Java}, and {\bf Tomcat}.
+      # - Improved the testing ({\bf JUnit} and {\bf NUnit}) and installation
+      #   ({\bf Ant}, {\bf InstallShield}, and {\bf Make}) frameworks.
+      # - Integrated a new licensing mode into CenterLink, a grid computing
+      #   application, using {\bf FLEXlm} and {\bf Java}.
+  # - place: Sunapsys
+  #   location: Vinton, Virginia
+  #   title: Network Administrator Intern
+  #   dates: 2011
+    # dates: Jan 2011 -- Aug 2011
+    # details:
+    #   - Internship in high school to replace Windows domain, mail,
+    #     DHCP, and DNS servers with virtual {\bf Linux} servers
+    #     using {\bf KVM} and {\bf virsh}.
+      # - Migrated the office's computers to the Linux servers.
+      # - Created {\bf Bash} scripts for incremental backups with rsync
+      #   and hard links.
+
+teaching:
+  - semester: S2017
+    name: Graduate AI
+    short: CMU 15-780
+    position: TA
+
+# selected_publications:
+#   name: "Amos"
+#   file: selected.bib
+#   sort_bib: False
+#   include_image: True
+#   group_by_year: False
+
+all_publications:
+  name: "Shi"
+  file: all.bib
+  sort_bib: True
+  include_image: False
+  group_by_year: True
+  # categories:
+  #   - heading: Preprints and Tech Reports
+  #     prefix: P
+  #     file: tech-reports.bib
+  #   - heading: Conference Proceedings
+  #     prefix: C
+  #     file: conference.bib
+  #   - heading: Journal Articles
+  #     prefix: J
+  #     file: journal.bib
+  #   - heading: Workshop, Symposium, and Short Papers
+  #     prefix: W
+  #     file: short.bib
+  #   - heading: Magazine Articles
+  #     prefix: M
+  #     file: magazine.bib
+    # - heading: Posters
+    #   prefix: S
+    #   file: posters.bib
+
+  author_urls:
+    'Hao Shi': 'https://scholar.google.com/citations?user=DclFbLwAAAAJ'
+    'Jianwu Dang': 'https://scholar.google.com/citations?user=Wk5ApskAAAAJ'
+    'Longbiao Wang': 'https://scholar.google.com/citations?user=1Z9_5ZgAAAAJ'
+    'Meng Ge': 'https://scholar.google.com/citations?user=Ody4GF0AAAAJ'
+    'Nan Li': 'https://scholar.google.com/citations?user=9BVJbdsAAAAJ'
+    'Sheng Li': 'https://scholar.google.com/citations?user=zHAhs0IAAAAJ'
+    'Tatsuya Kawahara': 'https://scholar.google.com/citations?user=o3AmlFYAAAAJ'
+
+talks:
+  - year: 2020
+    location: Caltech CS 159, Guest Lecture
+    url: https://sites.google.com/view/cs-159-spring-2020/lectures
+
+advising:
+  - year: 2021
+    name: Samuel Cohen
+    details: (visiting FAIR from UCL)
+    url: https://scholar.google.com/citations?user=CmdjfTsAAAAJ
+
+coursework:
+  - semester: S2017
+    name: Statistical Machine Learning (10-702, Au)
+    instructor: L. Wasserman
+
+hobbies:
+  - title: Piano
+    details: Sonata
+  - title: Basketball
+    details: Small Forward (SF)
+  - title: Swimming
+    details: Breaststroke
+  - title: Music
+    details: Rock
+
+skills:
+  - title: Programming
+    details: C, C++, Java, Python
+  - title: Frameworks
+    details: NumPy, PyTorch, SciPy, TensorFlow
+  - title: Tools
+    details: Linux, vim git, tmux
+
+honors:
+  - title: NSF Graduate Research Fellowship
+    year: 2016 -- 2019
+  - title: Nine undergraduate scholarships
+    descr: |
+      Roanoke County Public Schools Engineering,
+      Salem--Roanoke County Chamber of Commerce,
+      Papa John's,
+      Scottish Rite of Freemasonry,
+      VT Intelligence Community Conter for Academic Excellence,
+      VT Pamplin Leader,
+      VT Benjamin F.~Bock, VT Gay B.~Shober, VT I.~Luck Gravett
+    year: 2011 -- 2014
+
+
+# projects:
+#   website:
+#     name: Personal Blog and Website
+#     url: http://bamos.github.io
+#     details:
+#       - Hosted on GitHub Pages. Uses {\bf Markdown} for posts and {\bf Jekyll}
+#           for static HTML generation.
+#       - '{\bf 42 posts} across the following tags,
+#         listed by highest frequency.'
+#       - Python, Bash, Linux, LaTeX, Fortran, Android, Scala, News,
+#         JavaScript, Zsh, C++, OpenMP, Lua, Make, Mathematica, mpv
+#   github:
+#     name: GitHub Portfolio
+#     url: http://github.com/bamos
+#     details:
+#       - Hosts code samples, original source code, and patches for
+#         open source projects.
+#       - 25 original repositories, 5 forked repositories.
+
+# activities:
+#   - Honors Residential College, Virginia Tech, 2013 -- 2014
+#   - Hokies Pep Band, Virginia Tech, 2012 -- 2013
