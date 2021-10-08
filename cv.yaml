@@ -11,8 +11,8 @@ social:
   twitter: haoshi
   linkedin: hao-shi-29300b1b2
   google_scholar: DclFbLwAAAAJ&hl
-# Erdős  number is at most 4.
-# (Brandon Amos -> Layne Watson -> Leroy Kelly -> Zoltán Füredi -> Paul Erdős )
+# Erd艖s  number is at most 4.
+# (Brandon Amos -> Layne Watson -> Leroy Kelly -> Zolt谩n F眉redi -> Paul Erd艖s )
 
 # LaTeX formatting.
 style: banking # casual, classic, oldstyle, or banking
@@ -22,25 +22,27 @@ color2: '0.25,0.25,0.25' # Make the font under the name a darker grey.
 # (tag, section type, title)
 order:
   - [about, NONE]
+  - [education, Education]
+  - [research, Research Experience]
+  - [service, Professional Activities]
+  - [skills, Skills]
+  - [hobbies, Hobbies]
+  - [all_publications, Publications]
+
 #   - [news, News]
 #   - [positions, Current Position]
-  - [education, Education]
-#  - [industry, Research Internships]
-  - [research, Research Experience]
+#   - [industry, Research Internships]
 #   - [selected_publications, Selected Publications]
 #   - [honors, Honors \& Awards]
 #   - [projects, Projects]
 #   - [coursework, CMU Graduate Coursework]
-#  - [activities, Activities]
-  - [all_publications, Publications]
+#   - [activities, Activities]
 #   - [repos, Repositories]
 #   - [NEWPAGE, NEWPAGE]
-#    - [talks, Invited Talks]
-#    - [advising, Interns and Students]
-#   - [service, Professional Activities]
+#   - [talks, Invited Talks]
+#   - [advising, Interns and Students]
 #   - [teaching, Teaching]
-  - [skills, Skills]
-  - [hobbies, Hobbies]
+
 
 about: '
   I am a Ph.D. student in Speech and Audio Processing Lab., (Kyoto University, Japan)
@@ -49,11 +51,12 @@ about: '
   My main topics are speech enhancement and robust automatic speech recognition. 
   <br><br>'
 
-# service:
+service:
+   - details: INTERSPEECH 2020 (Shanghai) Volunteer
+     year: 2020
+
 #   - details: "Reviewing: AAAI, ICML, NeurIPS, ICLR*, ICCV, CVPR, ICRA"
 #     sub_details: "*Outstanding reviewer"
-#   - details: NeurIPS Learning Meets Combinatorial Optimization Workshop Organizer
-#     year: 2020
 #     url: https://sites.google.com/view/lmca2020/home
 
     # repos:
