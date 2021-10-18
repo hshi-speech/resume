@@ -241,6 +241,7 @@ all_publications:
     #   file: posters.bib
 
   author_urls:
+    'Cunhang Fan': 'https://scholar.google.com/citations?user=QbnlF74AAAAJ'
     'Hao Shi': 'https://scholar.google.com/citations?user=DclFbLwAAAAJ'
     'Jianwu Dang': 'https://scholar.google.com/citations?user=Wk5ApskAAAAJ'
     'Longbiao Wang': 'https://scholar.google.com/citations?user=1Z9_5ZgAAAAJ'
